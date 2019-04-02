@@ -20,4 +20,23 @@ User.create(username: "devan", password: "password")
 User.create(username: "brendan", password: "password")
 User.create(username: "alex", password: "password")
 
+Message.create(body: "Hello", user: User.find(1))
+Message.create(body: "Hello!", user: User.find(2))
+Message.create(body: "Hello?", user: User.find(3))
+Message.create(body: "I like a good book", user: User.find(4))
+Message.create(body: "Yeah me too", user: User.find(5))
+Message.create(body: "HOOOYA", user: User.find(3))
+Message.create(body: "Hello", user: User.find(6))
+Message.create(body: "Hello", user: User.find(7))
+Message.create(body: "Hello", user: User.find(8))
+Message.create(body: "Hello", user: User.find(9))
+Message.create(body: "Hello", user: User.find(10))
+Message.create(body: "Hello", user: User.find(11))
+Message.create(body: "Hello", user: User.find(12))
+Message.create(body: "This is cool", user: User.find(4))
+Message.create(body: "Your mom", user: User.find(5))
+Message.create(body: "Purell time!", user: User.find(2))
+
+
+
 
